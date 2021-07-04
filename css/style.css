@@ -1,0 +1,152 @@
+/*
+* BataBit styles mobile first
+*/
+
+:root {
+    /*
+    * Colors
+    */
+
+    --background: #E5E5E5;
+    --bitcoin-orange: #F7931A;
+    --soft-orange: #FFE9D5;
+    --secondary-blue: #1A9AF7;
+    --soft-blue: #E7F5FF;
+    --just-black: #201E1C;
+    --warm-black: #282623;
+    --grey: #BABABA;
+    --off-white: #FAF8F7;
+    --just-white: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    min-width: 320px;
+    height: 334px;
+    text-align: center;
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+}
+
+.header__picture {
+    width: inherit;
+    height: auto;
+}
+
+.header__picture--img {
+    width: 150px;
+    height: 24px;
+    margin-top: 60px;
+    align-self: center;
+}
+
+.header__content {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: 218px;
+    margin-top: 50px;
+    text-align: center;
+    align-self: center;
+}
+
+.header__content--title {
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+
+.header__content--description {
+    margin-top: 25px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--just-white);
+}
+
+.header__content--button {
+    position: absolute;
+    left: calc(50% - 114.5px);
+    top: 275px;
+    display: block;
+    margin-top: 35px;
+    padding: 13px;
+    width: 229px;
+    height: 45px;
+    background-color: var(--off-white);
+    box-shadow: 0 4px 8px rgba(89,73,30,0.16);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--just-black);
+}
+
+.header__content--button span {
+    display: inline-block;
+    width: 13px;
+    height: 8px;
+    margin-left: 10px;
+    background-image: url("../assets/icons/down-arrow.svg");
+}
+
+.landing {
+    width: 100%;
+    height: auto;
+    background-color: var(--off-white);
+}
+
+.landing__exchange {
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.landing__exchange--picture {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 50px;
+}
+
+.landing__exchange--content {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.landing__exchange--content-title {
+    margin-bottom: 30px;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    color: var(--just-black);
+}
+
+.landing__exchange--content-text {
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    color: #757575;
+}
+
+
