@@ -7,14 +7,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap"
+          rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Batabit</title>
 </head>
 <body>
 <header class="header">
     <figure class="header__picture">
-        <img loading="lazy" src="assets/img/logo.svg" alt="Imagotipo de Batabit" class="header__picture--img" title="Batabit">
+        <img loading="lazy" src="assets/img/logo.svg" alt="Imagotipo de Batabit" class="header__picture--img"
+             title="Batabit">
     </figure>
     <div class="header__content">
         <h1 class="header__content--title">
@@ -29,7 +31,8 @@
 <main class="landing">
     <section class="landing__exchange">
         <figure class="landing__exchange--picture">
-            <img loading="lazy" src="assets/img/Bitcoin.svg" alt="Bitcoin logo" class="landing__exchange--picture-img" title="Bitcoin logo">
+            <img loading="lazy" src="assets/img/Bitcoin.svg" alt="Bitcoin logo" class="landing__exchange--picture-img"
+                 title="Bitcoin logo">
         </figure>
         <div class="landing__exchange--content">
             <h2 class="landing__exchange--content-title">
@@ -40,11 +43,113 @@
             </p>
         </div>
         <section class="landing__exchange--table">
-            <div></div>
+            <div class="landing__exchange--table-container">
+                <p class="landing__exchange--table-container-title coins">Monedas</p>
+                <div class="landing__exchange--table-container-info">
+                    <table>
+                        <tr>
+                            <td class="table__top-left">Bitcoin</td>
+                            <td class="table__top-right table__right">$ 1.96 <span class="down"></span></td>
+                        </tr>
+                        <tr>
+                            <td>Ethereum</td>
+                            <td class="table__right">$ 0.07 <span class="up"></span></td>
+                        </tr>
+                        <tr>
+                            <td>Ripple</td>
+                            <td class="table__right">$ 2.15 <span class="down"></span></td>
+                        </tr>
+                        <tr>
+                            <td class="table__bottom-left">Stellar</td>
+                            <td class="table__bottom-right table__right">$ 4.96 <span class="down"></span></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="landing__exchange--table-container-change coins-btn">
+                    <p><b>Actualizado:</b> 19 Julio 23:45</p>
+                </div>
+            </div>
+            <div class="landing__exchange--table-container">
+                <p class="landing__exchange--table-container-title commissions">Comisiones</p>
+                <div class="landing__exchange--table-container-info">
+                    <table>
+                        <tr>
+                            <td class="table__top-left">Bitrade</td>
+                            <td class="table__top-right table__right">$ 12.96</td>
+                        </tr>
+                        <tr>
+                            <td>Bitpreco</td>
+                            <td class="table__right">$ 13.07</td>
+                        </tr>
+                        <tr>
+                            <td>Novadax</td>
+                            <td class="table__right">$ 13.15</td>
+                        </tr>
+                        <tr>
+                            <td class="table__bottom-left">Coinext</td>
+                            <td class="table__bottom-right table__right">$ 14.96</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="landing__exchange--table-container-change commissions-btn">
+                    <p><b>Actualizado:</b> 19 Julio 23:45</p>
+                </div>
+            </div>
         </section>
     </section>
-    <section></section>
-    <section></section>
+    <section class="landing__product">
+        <span class="landing__product--batata"></span>
+        <div class="landing__product--head">
+            <h2 class="landing__product--head-title">
+                Creamos un producto sin comparación.
+            </h2>
+            <p class="landing__product--head-text">
+                Confiable y diseñado para su uso diario.
+            </p>
+        </div>
+        <section class="landing__product--container">
+            <article class="landing__product--container-card">
+                <span class="landing__product--container-card-icon clock"></span>
+                <p class="landing__product--container-card-title">
+                    Tiempo real
+                </p>
+                <p class="landing__product--container-card-text">
+                    Nuestro API toma información minuto a minuto sobre las tasas que más determinan el comportamiento.
+                </p>
+            </article>
+            <article class="landing__product--container-card">
+                <span class="landing__product--container-card-icon eye"></span>
+                <p class="landing__product--container-card-title">
+                    No hay tasas escondidas
+                </p>
+                <p class="landing__product--container-card-text">
+                    Ni en la compra o al momento de exit, Batabit siempre te muestra el costo real de lo que estás
+                    adquiriendo.
+                </p>
+            </article>
+            <article class="landing__product--container-card">
+                <span class="landing__product--container-card-icon cash"></span>
+                <p class="landing__product--container-card-title">
+                    Compara monedas
+                </p>
+                <p class="landing__product--container-card-text">
+                    No más rumores, con Babtabit sabrás el valor real de cada moneda en el mercado actual.
+                </p>
+            </article>
+            <article class="landing__product--container-card">
+                <span class="landing__product--container-card-icon check"></span>
+                <p class="landing__product--container-card-title">
+                    Información confiable
+                </p>
+                <p class="landing__product--container-card-text">
+                    Nuestras fuentes están 100% verificadas y continuamos auditando su contenido mientras se actualizan.
+                </p>
+            </article>
+        </section>
+    </section>
+    <section class="landing__wildcard">
+        <h2 class="landing__wildcard--title">Conócelo hoy.</h2>
+    </section>
     <section></section>
 </main>
 <footer></footer>
