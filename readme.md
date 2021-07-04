@@ -9,6 +9,8 @@ This project was created in the course Mobile first by Platzi, teaching by Diego
 - Practice use BEM
 - Practice use layout flex and grid CSS
 - Practice use media queries for desktops and tablets
+- Practice use animations
+- Practice use overflow manage 
 
 ## Preview
 
