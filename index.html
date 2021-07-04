@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap"
           rel="stylesheet">
+    <link rel="shortcut icon" href="assets/icons/batata.svg">
     <link rel="stylesheet" href="css/style.css">
     <title>Batabit</title>
 </head>
@@ -25,7 +26,7 @@
         <p class="header__content--description">
             Batatabit te ayuda a navegar entre los diferentes precios y tendencias.
         </p>
-        <a href="" class="header__content--button">Conoce nuestros planes <span></span> </a>
+        <a href="#plans" class="header__content--button">Conoce nuestros planes <span></span> </a>
     </div>
 </header>
 <main class="landing">
@@ -96,6 +97,7 @@
                 </div>
             </div>
         </section>
+        <p class="landing__exchange--swipe animated wobble">Desliza hacia la derecha para ver comisiones <span></span></p>
     </section>
     <section class="landing__product">
         <span class="landing__product--batata"></span>
@@ -150,9 +152,60 @@
     <section class="landing__wildcard">
         <h2 class="landing__wildcard--title">Conócelo hoy.</h2>
     </section>
-    <section></section>
+    <section class="landing__plans">
+        <div class="landing__plans--head">
+            <h2 class="landing__plans--head-title">
+                Escoge el plan que mejor se ajuste a ti.
+            </h2>
+            <p class="landing__plans--head-text">
+                Cualquier plan te da acceso completo a nuestra plataforma.
+            </p>
+        </div>
+        <section id="plans" class="landing__plans--container">
+            <article class="landing__plans--container-card">
+                <div class="landing__plans--container-card-content">
+                    <h3 class="plans__type">Pago mensual</h3>
+                    <p class="plans__price"><sup><span>$</span></sup> 5</p>
+                    <p class="plans__saving">*Plan básico para mantenerte informado.</p>
+                    <button class="plans__button">Escoger ahora <span></span></button>
+                </div>
+            </article>
+            <article class="landing__plans--container-card">
+                <p class="landing__plans--container-card-favorite">
+                    Plan recomendado
+                </p>
+                <div class="landing__plans--container-card-content">
+                    <h3 class="plans__type">Pago anual</h3>
+                    <p class="plans__price"><sup><span>$</span></sup> 49</p>
+                    <p class="plans__saving">*Ahorras $129 comparado al plan mensual.</p>
+                    <button class="plans__button">Escoger ahora <span></span></button>
+                </div>
+            </article>
+            <article class="landing__plans--container-card">
+                <div class="landing__plans--container-card-content">
+                    <h3 class="plans__type">Acceso de por vida</h3>
+                    <p class="plans__price"><sup><span>$</span></sup> 99</p>
+                    <p class="plans__saving">*Ahorras $999 comparado al plan anual.</p>
+                    <button class="plans__button">Escoger ahora <span></span></button>
+                </div>
+            </article>
+        </section>
+    </section>
 </main>
-<footer></footer>
+<footer class="footer">
+    <section class="footer__container">
+        <ul class="footer__container--links">
+            <li><a href="#">Linkedin</a></li>
+            <li><a href="#">Crunchbase</a></li>
+            <li><a href="#">Hackernews</a></li>
+        </ul>
+        <section class="footer__container--brand">
+            <figure class="footer__container--brand-logo">
+                <img loading="lazy" src="assets/img/logo-footer.svg" alt="Logo de Batabit 2021" class="footer__container--brand-logo-img" title="Logo de Batabit">
+            </figure>
+        </section>
+    </section>
+</footer>
 
 </body>
 </html>
